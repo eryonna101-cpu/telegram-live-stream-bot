@@ -166,6 +166,10 @@ docker compose logs -f bot
 
 يجب أن يبقى `MONGO_URI=mongodb://mongo:27017` عند استخدام Compose.
 
+## Railway
+
+يستخدم المشروع `railway.json` في جذر المستودع لتحديد `Dockerfile` مباشرة بدلاً من الاعتماد على اكتشاف Railpack التلقائي. يجب إضافة متغيرات `.env.example` من صفحة **Variables** في Railway، وعدم رفع ملف `.env` أو أي Token إلى GitHub.
+
 ## systemd
 
 انسخ المشروع إلى `/opt/telegram-live-bot`، ثم:
