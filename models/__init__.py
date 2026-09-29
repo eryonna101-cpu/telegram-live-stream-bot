@@ -1,0 +1,1 @@
+"""Typed model aliases used by the persistence and handler layers."""
