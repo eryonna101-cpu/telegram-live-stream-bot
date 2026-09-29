@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+videos/*
+!videos/.gitkeep
+logs/*
+!logs/.gitkeep
+sessions/*
+!sessions/.gitkeep
+*.session
+*.session-journal
